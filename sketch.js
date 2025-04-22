@@ -536,10 +536,10 @@ let gPicturesBig = [];
 
 function preload() 
 {
-  footstep = loadSound("assets/sounds/footstep.wav");
-  popup = loadSound("assets/sounds/popup.wav");
-  popupOut = loadSound("assets/sounds/popupOut.wav");
-  backgroundMusic = loadSound("assets/sounds/background.wav");
+  footstep = loadSound("assets/sounds/footstep.WAV");
+  popup = loadSound("assets/sounds/popup.WAV");
+  popupOut = loadSound("assets/sounds/popupOut.WAV");
+  backgroundMusic = loadSound("assets/sounds/background.WAV");
 
   worldImage = loadImage("assets/images/map.png");
   wallImage = loadImage("assets/images/wall.png");
